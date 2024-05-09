@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.v-app {
+    height: 100vh;
+}
+.v-border{
+    border: 1px solid black;
+}
+.v-board {
+    /* border: 1px solid black; */
+    width: 36.54%;
+    height: 80%;
+}
+.v_row1 {
+    width: 100%;
+    height:40%;
+    margin: 0;
+    padding: 0;
+}
+.v_row2{
+    background-color: white;
+    width: 100%;
+    height:20%;
+    margin: 0;
+    padding: 0;
+}
+.center-col{
+    background-color: white;
+    width: 20%;
+}
+.corner-col{
+    width:40%;
+    padding: 0;
+}
+.main-col{
+    width: 20%;
+    background-color: pink;
+}
+.rowcenter-col{
+    width: 40%;
+}
+.center-col>div{
+    height:16.666667% ;
+}
+.rowcenter-col>div{
+    height:33.3333% ;
+}
+.corner-circel{
+    width:28%;
+    height:28%;
+    background-color: red;
+}
+.corner-div{
+    width:80%;
+    height:80%;
+    margin-top:18px;
+    /* background-color: red; */
+}
